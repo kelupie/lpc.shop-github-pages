@@ -11,6 +11,13 @@ body {
 	padding-top: 18px;
 }
 
+#trois {
+	padding-top: 200px;
+}
+
+
+
+
 #footer {
 	background-color:black;
 	color:#aaaaaa;
@@ -42,6 +49,13 @@ body {
 		font-size: 78px;
 
 }
+
+
+#Newsletter h2 {
+	padding-bottom: 90px;
+
+}
+
 
 
 #wrapper h2 {
