@@ -38,8 +38,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           
          
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Achetez maintenant</a></li>
+          <ul class="nav navbar-nav navbar-right" data-target ="#orderForm">
+            <li><a href="http://www.instagram.com/lpc.shop">Follow @lpc.shop</a></li>
+            
+               
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Suivez-nous ! <span class="caret"></span></a>
               <ul class="dropdown-menu">
@@ -67,12 +69,61 @@
       <div id="wrapper">
         <h1>Lpc.shop</h1>
         <h2>LA PAGE FRANCAISE DE RESELL</h2>
-        <a class="btn btn-danger" href="http://www.instagram.com/lpc.shop">Follow @Lpc.shop</a> 
-
+        <button type="button"  class="btn btn-danger" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#orderForm">
+         Achetez maintenant
+        </button>
       </div>
+
+            
+        <div class="modal fade" id="orderForm" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Inscription</h4>
+              </div>
+              <div class="modal-body">
+              
+              
+                  
+                   <div id="wufoo-z1rxcvy1jefz0s">
+                      Fill out my <a href="https://lpcshop.wufoo.com/forms/z1rxcvy1jefz0s">online form</a>.
+                      </div>
+                      <div id="wuf-adv" style="font-family:inherit;font-size: small;color:#a7a7a7;text-align:center;display:block;">There are tons of <a href="http://www.wufoo.com/features/">Wufoo features</a> to help make your forms awesome.</div>
+                      <script type="text/javascript">var z1rxcvy1jefz0s;(function(d, t) {
+                      var s = d.createElement(t), options = {
+                      'userName':'lpcshop',
+                      'formHash':'z1rxcvy1jefz0s',
+                      'autoResize':true,
+                      'height':'538',
+                      'async':true,
+                      'host':'wufoo.com',
+                      'header':'show',
+                      'ssl':true};
+                      s.src = ('https:' == d.location.protocol ? 'https://' : 'http://') + 'www.wufoo.com/scripts/embed/form.js';
+                      s.onload = s.onreadystatechange = function() {
+                      var rs = this.readyState; if (rs) if (rs != 'complete') if (rs != 'loaded') return;
+                      try { z1rxcvy1jefz0s = new WufooForm();z1rxcvy1jefz0s.initialize(options);z1rxcvy1jefz0s.display(); } catch (e) {}};
+                      var scr = d.getElementsByTagName(t)[0], par = scr.parentNode; par.insertBefore(s, scr);
+                      })(document, 'script');</script>
+
+
+              </div>
+              
+            </div>
+          </div>
+        </div>
       
 
-        
+
+
+
+
+
+
+
+            
+
       
         <div class="spacer"></div>
         <div class ="container text-center">
