@@ -17,12 +17,19 @@ body {
 
 
 
+.thumbnail  {
+	margin-left: 2em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+}
+
 
 #footer {
 	background-color:black;
 	color:#aaaaaa;
-	padding-top: 3em;
-	padding-bottom: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
 
 
 }
@@ -41,7 +48,7 @@ body {
 	background-size: cover;
 	text-align: center;
 	padding-top: 80px;
-	color:red;
+	color:black;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
@@ -49,6 +56,18 @@ body {
 		font-size: 78px;
 
 }
+
+.row h3 {
+		color:white;
+
+}
+
+
+
+
+
+
+
 
 
 #Newsletter h2 {
@@ -67,6 +86,22 @@ body {
 
 .spacer {
 	height:8em;
+}
+
+.spacer1 {
+	height:4em;
+}
+
+
+
+.row h6 {
+	height:1em;
+	font-size: 30px;
+}
+
+.navbar-brand img {
+	
+	
 }
 
 .feature p {
