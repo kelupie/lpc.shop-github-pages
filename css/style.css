@@ -28,8 +28,8 @@ body {
 #footer {
 	background-color:black;
 	color:#aaaaaa;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 1em;
+	padding-bottom: 1em;
 
 
 }
@@ -62,8 +62,17 @@ body {
 
 }
 
+.row h7 {
+		color:white;
+		height:1em;
+		font-size: 30px;
+}
 
-
+.row h8 {
+		height:1em;
+		font-size: 30px;
+		padding-left:250px;
+}
 
 
 
@@ -98,6 +107,37 @@ body {
 	height:1em;
 	font-size: 30px;
 }
+
+.row h10 {
+	padding-left: 340px;
+	font-size: 30px;
+}
+
+.bande {
+	padding-left: 20px;
+
+}
+
+.bande1 {
+	padding-left: 60px;
+
+}
+
+
+
+
+
+.spacer-bande {
+	margin-bottom: 2em;
+
+}
+
+.spacer-bande1 {
+	margin-top:2em;
+
+}
+
+
 
 .navbar-brand img {
 	
