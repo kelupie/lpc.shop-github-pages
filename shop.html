@@ -50,22 +50,34 @@
         <!-- Brand and toggle get grouped for better mobile display -->
          <div class="navbar-header">
           <a class="navbar-brand" href="index.html">
-        <img alt="Brand" src="Images/site/lpc.shop.png">
+        <img id ="picture" alt="Brand" src="Images/site/logo1.png">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.html">Lpc.shop</a>
-         
+          
         </div>
+          <div class="dropdown">
+            <div id="cart">
+              <span class="glyphicons glyphicons-shopping"><i class="fa fa-shopping-basket"></i></span>
+            </div>
+                                        
+            <ul id="cart-dropdown" hidden>
+              <li id="empty-cart-msg"><a>Votre panier est vide</a></li>
+              <li class="go-to-cart hidden"><a href="/panier/">Voir le panier</a></li>
+            </ul>
+          </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           
          
           <ul class="nav navbar-nav navbar-right" data-target ="#orderForm">
+
+          
+
             <li><a href="contact.html">Meet up</a></li>
             
                
@@ -82,9 +94,15 @@
               </ul>
             </li>
           </ul>
+
+        
+
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
+
+
+
 
 
 
@@ -106,13 +124,13 @@
      
            <div class="spacer-bande"></div>
           <div class ="row">
-          <h8> - Découvrez les dernières nouveautés sur www.lpcshop.fr -  </h8>
+            <div class ="container text-center">
+          <h8> - Venez découvrir les dernières nouveautés sur www.lpcshop.fr -  </h8>
         </div>
-
+         </div>
         <div class="spacer-bande1"></div>
 
-         
-
+       
 
 
 
@@ -120,21 +138,22 @@
            
         <div class="spacer1"></div>
         <div class ="row">
+          <div class ="container text-center">
         <h10>________________________________________</h10>
       </div>
       <div class="spacer1"></div>
+    </div>
 
 
 
-
-
-      <div class ="bande1">
+      <div class ="container text-center">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/site/FOXRACING/fox.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">  
       </div>
+       
 
 
 
@@ -150,16 +169,37 @@
           <img src="Images/site/FOXRACING/jerseyfox.png" alt="...">
         <div class="caption">
         <h4> Supreme Jersey </h4>
-        <p>Price : 250€</p>
+        
         <div class="btn-group">
-        <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Size <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a>Large - Black </a></li>
-          </ul>
           </div>
-         <a href="#" class="btn btn-default" role="button">Buy</a></p>
+          
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="R8H7GMWHXZR8W">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Stock">Stock</td></tr><tr><td><select name="os0">
+          <option value="Size L">Size L €250,00 EUR</option>
+        </select> </td></tr>
+        </table>
+        <div class="spacer2"></div>
+        <div id = "messageinfo">
+        <p>*Si vous souhaitez effectuer une commande multiple, régler un par un les items et l'équipe Lpc.shop fera le nécessaire pour regrouper vos commandes</p>
+        </div>
+        
+        <div class="spacer2"></div>
+
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+        <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+        </form>
+
+
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -173,19 +213,37 @@
       
       <div class="caption">
         <h4> Supreme Grips </h4>
-        <p>Price : 130€</p>
         <div class="btn-group">
-        <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Size <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a>Unique - Black </a></li>
-          </ul>
           </div>
-          <a href="#" class="btn btn-default" role="button">Buy</a></p>
+          
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="6SLHTVHPEFLV8">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Stock">Stock</td></tr><tr><td><select name="os0">
+          <option value="Black - Unique">Black - Unique €250,00 EUR</option>
+        </select> </td></tr>
+        </table>
+
+        <div class="spacer2"></div>
+        <div id = "messageinfo">
+        <p>*Si vous souhaitez effectuer une commande multiple, régler un par un les items et l'équipe Lpc.shop fera le nécessaire pour regrouper vos commandes</p>
+        
+        </div>
+        <div class="spacer2"></div>
+<input type="hidden" name="currency_code" value="EUR">
+<input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+<img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+
       </div>
     </div>
   </div>
+
+
+
+
 
 
 <div class="col-sm-6 col-md-3 ">
@@ -193,18 +251,37 @@
       <img src="Images/site/FOXRACING/jerseymultifox.png" alt="...">
       <div class="caption">
         <h4>Supreme Jersey</h4>
-        <p>Price : 250€</p>
+        
         <div class="btn-group">
-        <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Size <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a>Large - Multicolor </a></li>
-          </ul>
-          </div>
+        </div>
+
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="QYFJ773AG9BSE">
+          <table>
+          <tr><td><input type="hidden" name="on0" value="Stock">Stock</td></tr><tr><td><select name="os0">
+            <option value="Multi - L">Multi - L €250,00 EUR</option>
+          </select> </td></tr>
+          </table>
+
+           <div class="spacer2"></div>
+        <div id = "messageinfo">
+        <p>*Si vous souhaitez effectuer une commande multiple, régler un par un les items et l'équipe Lpc.shop fera le nécessaire pour regrouper vos commandes</p>
+        </div>
+        
+
+        <div class="spacer2"></div>
+          <input type="hidden" name="currency_code" value="EUR">
+          <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+          <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+          </form>
 
 
-         <a href="#" class="btn btn-default" role="button">Buy</a></p>
+
+
+
+
+
       </div>
     </div>
   </div>
@@ -218,17 +295,43 @@
       
       <div class="caption">
         <h4>Supreme Goggles</h4>
-        <p>Price : 300€</p>
+        
         <div class="btn-group">
-        <button class="btn btn-default" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-           Size <span class="caret"></span>
-          </button>
-          <ul class="dropdown-menu">
-            <li><a>Unique - Black </a></li> 
-          </ul>
-          </div>
+        </div>
+       <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick">
+        <input type="hidden" name="hosted_button_id" value="Z9LZNUGX5JGTQ">
+        <table>
+        <tr><td><input type="hidden" name="on0" value="Stock">Stock</td></tr><tr><td><select name="os0">
+          <option value="Black - Unique">Black - Unique €250,00 EUR</option>
+        </select> </td></tr>
+        </table>
+        <div class="spacer2"></div>
+        <div id = "messageinfo">
+        <p>*Si vous souhaitez effectuer une commande multiple, régler un par un les items et l'équipe Lpc.shop fera le nécessaire pour regrouper vos commandes</p>
+        </div>
+        <label for="q">Quantité: </label>
+<select id="qt" name="q">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="4">4</option>
+  <option value="5">5</option>
+  <option value="6">6</option>
+  <option value="7">7</option>
+  <option value="8">8</option>
+  <option value="9">9</option>
+</select><br>
+<button type="button" class="add-to-cart" data-id="432" data-name="Pastilles" data-price="29,00" data-weight="97" data-url="/produit/pastilles-anti-douleurs/">Ajouter au panier</button>
 
-         <a href="#" class="btn btn-default" role="button">Buy</a></p>
+        <div class="spacer2"></div>
+
+        <input type="hidden" name="currency_code" value="EUR">
+        <input type="image" src="https://www.paypalobjects.com/fr_FR/FR/i/btn/btn_buynow_SM.gif" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+        <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1">
+        </form>
+
+
       </div>
     </div>
   </div>
@@ -287,13 +390,14 @@
 
 
 
-      <div class ="bande1">
+      <div class ="container text-center">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/site/LACOSTE/supremelacoste.png" alt="Supreme Lacoste"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">  
       </div>
+
 
 
 
@@ -490,7 +594,7 @@
 
 
 
-      <div class ="bande1">
+      <div class ="container text-center">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/site/TNF/tnfsupreme.png" alt="Supreme Lacoste"> 
@@ -594,13 +698,14 @@
 
 
 
-      <div class ="bande">
+      <div class ="container text-center">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">
-      <img src="Images/background/su.png" alt="Bande supreme">   
+        
+
       </div>
 
 
@@ -691,6 +796,40 @@
 
 
 
+ <div class="spacer"></div>
+        <div class ="container text-center">
+          <div class ="row">
+            <div class =" col-sm-6 col-md-3 feature">
+              <h6>  - SNEAKERS - </h6>
+
+
+              </div>
+           
+
+
+
+            <div class =" col-sm-6 col-md-3 feature ">
+              <h6>   - DROPS -    </h6>
+
+              </div>
+
+
+              <div class =" col-sm-6 col-md-3 feature ">
+              <h6>    - CLOTHES -    </h6>
+
+              </div>
+
+
+              <div class =" col-sm-6 col-md-3 feature ">
+              <h6>   - WTS/WTB/WTT -    </h6>
+
+              </div>
+
+
+
+
+            </div>
+          </div>
 
 
 
@@ -724,7 +863,7 @@
 
             <div class =" col-sm-6 col-md-3 feature">
               <div class="list-group">
-                  <a href="inofrmations.html" class="list-group-item ">
+                  <a href="informations.html" class="list-group-item ">
                <img  class=" list-group-item-picture " src="Images/site/noun_676775_cc.svg"  width="48px">
                 <p  class=" list-group-item-text " id= 'bio'>@lpc.shop vous permet de connaître les items à Cop / Drop chaques semaines</p>
               </a>
@@ -823,7 +962,7 @@
       </div>
       
       <div class="col-xs-6" id ="deux">
-        <p>Lpc.shop est la page de ressel où vous pouvez retrouver les informations sur les releases de sneakers et bien entendu des items Supreme disponibles sur nos réseaux sociaux comme instagram : <a href="http://www.instagram.com/lpc.shop">Lpc.shop</a>
+        <p>Lpc.shop est la page de ressel où vous pouvez retrouver les informations sur les releases de sneakers<a href="http://www.instagram.com/lpc.shop">Lpc.shop</a>
         </p>
 
       </div>
