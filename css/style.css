@@ -116,7 +116,10 @@ body {
 	border-radius:50%;
 
 }
+#picture1 {
+	border-radius:10%;
 
+}
 
 
 
@@ -173,7 +176,7 @@ body {
 
 
 .navbar-transparent {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .navbar-transparent .navbar-brand,
@@ -209,8 +212,13 @@ body {
 }
 
 
+.displayflex{
+	display: flex;
+}
 
-
+.fullwidth{
+	width:100%;
+}
 
 
 
