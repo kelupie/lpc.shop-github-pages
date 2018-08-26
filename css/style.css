@@ -222,9 +222,14 @@ body {
 
 
 
+@media screen and( max-width: 500px ){
+	.item{width: 100%;}
+	.item .active{width: 100%;}
+	.right carousel-control{}
+	.icon-bar{display: none;}
+	.body {display: none;}
 
-
-
+}
 
 
 
