@@ -96,11 +96,11 @@ body {
 
 
 
-.spacer {
+.spacer,.spacer-static {
 	height:8em;
 }
 
-.spacer1 {
+.spacer1 ,.spacer1-dynamique{
 	height:4em;
 }
 
@@ -220,14 +220,20 @@ body {
 	width:100%;
 }
 
-
-
-@media screen and( max-width: 500px ){
+.align-right{
+	text-align: right;
+}
+@media all and ( max-width: 450px ){
 	.item{width: 100%;}
 	.item .active{width: 100%;}
 	.right carousel-control{}
 	.icon-bar{display: none;}
 	.body {display: none;}
+	 .spacer {height:1em;}
+.spacer1-dynamique {height: 0.1em;}
+
+.carousel-caption h1 {font-size: 2em;}
+.carousel-caption h2 {font-size: 1em;}
 
 }
 

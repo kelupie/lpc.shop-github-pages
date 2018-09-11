@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel ="stylesheet" type="text/css"  href="css/style.css" />
     
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
@@ -45,13 +45,12 @@
 
 
 
-
-    <nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
+<nav class="navbar navbar-default navbar-fixed-top navbar-transparent">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
          <div class="navbar-header">
           <a class="navbar-brand" href="index.html">
-        <img id ="picture" alt="Brand" src="Images/site/logo1.png"></a>
+        <img id="picture" alt="Brand" src="Images/site/logo1.png"></a>
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
@@ -62,16 +61,16 @@
         </div>
           
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse align-right" id="bs-example-navbar-collapse-1">
           
-                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                      <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
-          <ul class="nav navbar-nav navbar-right" data-target ="#orderForm">
+          <ul class="nav navbar-nav navbar-right" data-target="#orderForm">
           <li>
           <input type="hidden" name="cmd" value="_cart">
           <input type="hidden" name="business" value="lpcxshop@gmail.com">
           <input type="hidden" name="display" value="1">
-          <input type="image" id ="picture1" src="https://www.skeelbox.com/wp-content/uploads/2014/06/panier.png"  height ="50" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
+          <input type="image" id="picture1" src="https://www.skeelbox.com/wp-content/uploads/2014/06/panier.png" height="50" border="0" name="submit" alt="PayPal, le réflexe sécurité pour payer en ligne">
           <img alt="" border="0" src="https://www.paypalobjects.com/fr_FR/i/scr/pixel.gif" width="1" height="1"></li>
 
             
@@ -92,10 +91,9 @@
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
-
    
 
-<div class="spacer"></div>
+<div class="spacer-static"></div>
 
 
 
@@ -124,11 +122,13 @@
 
      
            <div class="spacer-bande"></div>
+           <div class="container">
           <div class ="row">
             <div class ="container text-center">
           <h8> Venez découvrir les dernières nouveautés sur www.lpcshop.fr  </h8>
         </div>
          </div>
+       </div>
         <div class="spacer-bande1"></div>
 
        
@@ -140,7 +140,7 @@
         <div class="spacer1"></div>
         <div class ="row">
           <div class ="container text-center">
-        <h10>________________________________________</h10>
+        <!-- <h10>________________________________________</h10> -->
       </div>
      
     </div>
@@ -156,7 +156,7 @@
         <h8> Supreme Collaborations    </h8>
         <div class="spacer1"></div>
 <form name="form" > 
-  <select size="1" onChange="location = this.options[this.selectedIndex].value;"> 
+  <select size="1" onChange="location = this.options[this.selectedIndex].value;" class="fullwidth"> 
     <OPTION SELECTED VALUE=""> CHOOSE YOUR COLLABORATIONS </option> 
       <optgroup label="View All">
     <option value="shop.html" >Collaborations - No-Collaborations - Sneakers & Clothes - Accesorries </option> 
@@ -193,25 +193,13 @@
 
 <span class="glyphicons glyphicons-cart-in"></span>
 
-      <div class ="container  displayflex ">
-        <div class="text-center fullwidth">
-        <img src="Images/background/su.png" alt="Bande supreme"> 
-        <img src="Images/background/su.png" alt="Bande supreme"> 
+<div class="text-center fullwidth">
+      <img src="Images/background/su.png" alt="Bande supreme"> 
+      <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/site/FOXRACING/fox.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">  
-      </div>
-    </div>
-       
-
-
-
-
-
-
-
-
-
+</div>
 
 
   <div class="col-sm-6 col-md-3 ">
@@ -570,14 +558,12 @@
 
 
 
-      <div class ="container  displayflex ">
         <div class="text-center fullwidth">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/site/LACOSTE/supremelacoste.png" alt="Supreme Lacoste"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">  
-      </div>
       </div>
 
 
@@ -742,7 +728,6 @@
 
 
 
-      <div class ="container  displayflex ">
         <div class="text-center fullwidth">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
@@ -750,7 +735,6 @@
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme"> 
       </div> 
-      </div>
 
 
 
@@ -1043,7 +1027,6 @@
 
 
 
-      <div class ="container  displayflex ">
         <div class="text-center fullwidth">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
@@ -1051,7 +1034,7 @@
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">
       </div>
-    </div>
+
 
 
 
@@ -2394,7 +2377,7 @@
 
 
 
-       <div class ="container  displayflex ">
+
         <div class="text-center fullwidth">
         <img src="Images/background/su.png" alt="Bande supreme"> 
         <img src="Images/background/su.png" alt="Bande supreme"> 
@@ -2402,7 +2385,6 @@
       <img src="Images/background/su.png" alt="Bande supreme"> 
       <img src="Images/background/su.png" alt="Bande supreme">  
       </div>
-    </div>
 
 
 
@@ -3194,14 +3176,12 @@
 
 
 
-       <div class ="container  displayflex ">
         <div class="text-center fullwidth">
         <img src="Images/background/sneaker1.png" alt="Bande supreme"> 
         <img src="Images/background/sneaker1.png" alt="Bande supreme"> 
       <img src="Images/site/SNEAKER/sneaker1.png" alt="Sneakers"> 
       <img src="Images/background/sneaker1.png" alt="Bande supreme"> 
       <img src="Images/background/sneaker1.png" alt="Bande supreme">  
-      </div>
       </div>
 
 
